@@ -1,5 +1,8 @@
 pipeline {
    agent { docker { image 'mcr.microsoft.com/playwright:focal' } }
+   environment {
+       HOME = '.'
+   }
    stages {
       stage('e2e-tests') {
          steps {
