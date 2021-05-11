@@ -1,0 +1,16 @@
+{
+  "name": "Codecept-Playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.0.7",
+    "playwright": "^1.10.0"
+  }
+}
